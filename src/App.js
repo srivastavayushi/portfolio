@@ -1,14 +1,15 @@
-import React from "react";
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <Intro />
-      <Projects />
+    <div>
+      <Navbar />
       <Contact />
+      <Home />
     </div>
   );
 }

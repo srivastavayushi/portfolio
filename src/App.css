@@ -1,0 +1,9 @@
+* {
+  background: #0b192f;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #64ffda;
+  --grey: #8892b0;
+}
