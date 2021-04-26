@@ -1,9 +1,9 @@
-import "./App.css";
-
+// Importing Components
+import Main from "./Pages/Main";
 function App() {
   return (
     <div>
-      <h1 className="text-center text-purple-600">Ayushi</h1>
+      <Main />
     </div>
   );
 }
