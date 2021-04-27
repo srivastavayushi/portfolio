@@ -2,54 +2,76 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="border-solid border-2 border-light-blue-500">
-      <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-semibold text-xl tracking-tight">A</span>
-        </div>
-        <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-            <svg
-              class="fill-current h-3 w-3"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
+    <div className="flex flex-wrap py-2">
+      <div className="w-full px-4">
+        <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-teal-500 rounded font-fira-code">
+          <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
+              <a
+                className="text-sm  leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-green"
+                href="#pablo"
+              >
+                A
+              </a>
+              <button
+                className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                type="button"
+              >
+                <span className="block relative w-6 h-px rounded-sm bg-white"></span>
+                <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+                <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+              </button>
+            </div>
+            <div
+              className="flex lg:flex-grow items-center"
+              id="example-navbar-info"
             >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-end">
-          <div class="text-sm lg:flex-grow">
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Docs
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Examples
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
-            >
-              Blog
-            </a>
+              <ul className="flex flex-col lg:flex-row list-none ml-auto">
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-green hover:opacity-75"
+                    href="#pablo"
+                  >
+                    01. About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-green hover:opacity-75"
+                    href="#pablo"
+                  >
+                    02. Experience
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-green hover:opacity-75"
+                    href="#pablo"
+                  >
+                    03. Work
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-green hover:opacity-75"
+                    href="#pablo"
+                  >
+                    04. Contact
+                  </a>
+                </li>
+                <li className="nav-item rounded border-2 border-red-500 border-solid">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-green hover:opacity-75"
+                    href="#pablo"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <a
-              href="#"
-              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-            >
-              Download
-            </a>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   );
 }

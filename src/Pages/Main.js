@@ -8,15 +8,15 @@ export default function Main() {
   return (
     <div>
       <Navbar />
-      <div class="grid grid-cols-8 gap-4">
-        <div class="col-span-1">
-          <Email />
+      <div class="grid grid-cols-8 gap-4" style={{ maxHeight: "90vh" }}>
+        <div class="col-span-1 h-full">
+          <SideSocial />
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 h-full">
           <Home />
         </div>
-        <div class="col-span-1">
-          <SideSocial />
+        <div class="col-span-1 h-full ">
+          <Email />
         </div>
       </div>
     </div>
