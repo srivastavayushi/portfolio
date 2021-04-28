@@ -4,7 +4,7 @@ import IconGitHub from "../Icons/Github";
 import External from "../Icons/External";
 export default function Built() {
   return (
-    <div>
+    <div className=" bg-navy">
       <div className=" my-32  text-left">
         <p className="text-2xl font-bold mb-12">04. Some Things I have built</p>
         <div className="grid grid-cols-12 mb-20">

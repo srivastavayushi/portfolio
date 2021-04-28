@@ -4,20 +4,29 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      custom: ["fira-code", "sans-serif"],
-    },
-    // colors: {
-    //   transparent: "transparent",
-    //   current: "currentColor",
-    //   green: {
-    //     DEFAULT: "#64FFDA",
-    //   },
-    //   gray: {
-    //     light: "#8892B0",
-    //     dark: "#CCD7F6",
-    //   },
+    // fontFamily: {
+    //   custom: ["fira-code", "sans-serif"],
     // },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      navy: {
+        DEFAULT: "#0a192f",
+        light: "#112240",
+        lightest: "#233554",
+      },
+      slate: {
+        DEFAULT: "#8892b0",
+        light: "#a8b2d1",
+        lightest: "#ccd6f6",
+      },
+      white: {
+        DEFAULT: "#e6f1ff",
+      },
+      green: {
+        DEFAULT: "#64ffda",
+      },
+    },
     extend: {},
   },
   variants: {

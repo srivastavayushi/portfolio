@@ -92,7 +92,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className=" my-32  text-center space-y-8">
+      <div className=" my-32  text-center space-y-8 ">
         <p className="text-2xl font-bold">04. Other Noteworthy Projects</p>
         <h1>view the archive</h1>
         <div class="grid grid-cols-3 gap-4">

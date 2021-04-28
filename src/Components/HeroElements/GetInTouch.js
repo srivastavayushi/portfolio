@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GetInTouch() {
   return (
-    <div className=" my-32 mx-96 text-center space-y-4">
+    <div className=" my-32 mx-96 text-center space-y-4 bg-navy">
       <p>04. What’s Next?</p>
       <h1 className="text-5xl font-bold">Get In Touch</h1>
       <p>

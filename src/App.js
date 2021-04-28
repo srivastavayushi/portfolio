@@ -7,10 +7,10 @@ import { LineL, LineR } from "./Components/Line";
 
 function App() {
   return (
-    <div className="h-screen">
+    <div className="h-screen bg-navy">
       <Navbar />
       <Hero />
-      <Email />
+      <Email className=" bg-navy" />
       <LineR />
       <SideSocial />
       <LineL />
