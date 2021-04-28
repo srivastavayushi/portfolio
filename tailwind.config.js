@@ -7,17 +7,17 @@ module.exports = {
     fontFamily: {
       custom: ["fira-code", "sans-serif"],
     },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      green: {
-        DEFAULT: "#64FFDA",
-      },
-      gray: {
-        light: "#8892B0",
-        dark: "#CCD7F6",
-      },
-    },
+    // colors: {
+    //   transparent: "transparent",
+    //   current: "currentColor",
+    //   green: {
+    //     DEFAULT: "#64FFDA",
+    //   },
+    //   gray: {
+    //     light: "#8892B0",
+    //     dark: "#CCD7F6",
+    //   },
+    // },
     extend: {},
   },
   variants: {
